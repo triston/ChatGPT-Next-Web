@@ -34,6 +34,7 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://monitor.qiyiland.com/script.js" data-website-id="ce8aa059-c099-49a0-b371-26a09f2f24c6"></script>
       </head>
       <body>{children}</body>
     </html>
